@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ac - Meme Creator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./icon.png" type="image/x-icon">
+</head>
+<body>
+
+    <h1><i>Ac - Meme Creator</i></h1>
+    <div class="container">
+    <canvas id="canvas"></canvas>
+     <div class="sidebar">
+      <p>Add Image</p>
+      <input type="file" id="file">
+
+      <div class="group">
+       <textarea placeholder="Enter Something..." id="text"></textarea> 
+       <input type="color" id="color">
+       <button id="addText">Add Text</button>
+      </div>
+
+      <button id="create">Create</button>
+
+
+    </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.js" integrity="sha512-hOJ0mwaJavqi11j0XoBN1PtOJ3ykPdP6lp9n29WVVVVZxgx9LO7kMwyyhaznGJ+kbZrDN1jFZMt2G9bxkOHWFQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+body{
+    background: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    background: #fff;
+    padding: 15px;
+    margin: 1em 0 1em 0;
+}
+
+/* canvas{
+    background: #fff;
+} */
+
+.container{
+    display: flex;
+}
+
+.sidebar{
+    background: rgba(31, 22, 22, 0.1);
+    margin-left: 1em;
+    padding: 1em;
+    border-radius: 3px;
+}
+
+.group{
+    background: rgba(7, 5, 5, 0.1);
+    padding: .5em;
+    margin: 1em 0;
+}
+
+.group *, button{
+    display: block;
+    margin: .5em 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button{
+    padding: .5em;
+    border: none;
+    outline: none;
+    background: rgb(27, 144, 190);
+}
+button:hover{
+    cursor: pointer;
+    background: rgb(27, 110, 143);
+}
+
+textarea{
+    outline: none;
+}
+
+
+
+
+
